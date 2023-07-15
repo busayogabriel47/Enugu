@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Cinzel:wght@400;800&family=Righteous&family=Roboto:wght@300&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #FD7349;
+    font-family: 'Roboto', sans-serif;
+}
+
+.team{
+    text-align: center;
+    color: #fff;
+    margin-top: 3rem;
+}
+.team h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+.card{
+    padding: 1.2rem;
+    border-radius: 0;
+    border-top-right-radius: 40px;
+}
+.card img {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.card-body h6{
+    color: #AFB0B6;
+}
+.card-body h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.fa-facebook-f{
+    padding: 0.8rem 1rem;
+    background-color: #FD7349;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.fa-twitter, .fa-instagram{
+    background-color: #FD7349;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.8rem;
+}
+.fa-twitter, .fa-instagram,
+.fa-facebook-f{
+    margin-right: 2rem;
+}
+
